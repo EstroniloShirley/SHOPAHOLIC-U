@@ -7,7 +7,7 @@ export const Products = () => {
       <img
         src={Banner2}
         alt="2nd Banner"
-        className="pb-5 pt-3"
+        className="pb-5 pt-10"
       />
       <NavBar />
     </main>

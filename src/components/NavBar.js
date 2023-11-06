@@ -7,32 +7,44 @@ import { Link } from 'react-router-dom';
 
 export const NavBar = ({ products }) => {
   const [data, setData] = useState([]);
-  // eslint-disable-next-line
-  const [filter, setFilter, show] = useState(data);
+  const [filter, setFilter] = useState([]);
 
+  //naglagay ako ng localStorage dito para kahit pumunta sa ibang page or refresh display parin niya images.
   useEffect(() => {
-    // eslint-disable-next-line
-    getBrand();
-    // eslint-disable-next-line
+    const storedData = localStorage.getItem('productData');
+    if (storedData) {
+      setData(JSON.parse(storedData));
+      setFilter(JSON.parse(storedData));
+    } else {
+      getBrand();
+    }
   }, []);
+
+  //Ito kasama sa localStorage
   const getBrand = async () => {
     const response = await fetch(
       'http://makeup-api.herokuapp.com/api/v1/products.json?brand=nyx'
     );
-    setData(await response.json());
-    setFilter(data);
+    const newData = await response.json();
+    setData(newData);
+    setFilter(newData);
+    localStorage.setItem('productData', JSON.stringify(newData));
   };
 
   const filterProducts = (category) => {
     const updatedItems = data.filter((item) => item.product_type === category);
-    console.log(updatedItems);
     setFilter(updatedItems);
+  };
+
+  //ito para kahit nag click ka ng ibang page prevent parin niya yung current images (display)
+  const handleLinkClick = (event) => {
+    event.preventDefault();
   };
 
   return (
     <main className=" text-center ">
       <h1 className="text-center text-4xl font-extrabold underline-offset-4	mb-5 leading-relaxed">
-        Products
+        Our Products
       </h1>
       <div className="inline-flex rounded-md shadow-sm">
         <Link

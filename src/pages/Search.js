@@ -2,8 +2,8 @@ import React from 'react';
 
 export const Search = () => {
   return (
-    <div>
-      <form className="ml-20 mr-20 ">
+    <div className="">
+      <form className="ml-10 mr-10 ">
         <label
           htmlFor="default-search"
           className=" text-sm font-medium text-gray-900 sr-only dark:text-white"

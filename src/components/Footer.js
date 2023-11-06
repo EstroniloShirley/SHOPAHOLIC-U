@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export const Footer = () => {
   return (
     <footer>
-      <footer className="bottom-0 left-0 z-20 P-4w-full bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between p-2 dark:bg-blue-950 dark:border-gray-600">
+      <footer className=" left-0 z-20 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between p-2 dark:bg-blue-950 dark:border-gray-600">
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2023{' '}
           <Link
@@ -20,13 +20,13 @@ export const Footer = () => {
               <a
                 target="_blank"
                 href="https://www.facebook.com/shopaholic.u.2023/"
-                className="flex flex-wrap mr-4 hover:underline md:mr-6"
+                className=" "
                 rel="noreferrer"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  height="60"
-                  width="100"
+                  height="40"
+                  width="40"
                   viewBox="-204.79995 -341.33325 1774.9329 2047.9995"
                 >
                   <path
@@ -50,8 +50,8 @@ export const Footer = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  height="50"
-                  width="100"
+                  height="40"
+                  width="40"
                   viewBox="-44.7006 -60.54775 387.4052 363.2865"
                 >
                   <path
@@ -70,8 +70,8 @@ export const Footer = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  height="70"
-                  width="100"
+                  height="40"
+                  width="40"
                   viewBox="-19.5036 -32.49725 169.0312 194.9835"
                 >
                   <defs>

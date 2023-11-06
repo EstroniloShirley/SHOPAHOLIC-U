@@ -9,3 +9,4 @@ export { Contact } from './Contact';
 export { About } from './About';
 export { Login } from './Login';
 export { ProductList } from '../pages/ProductList';
+export { Modal } from '../pages/Modal';
