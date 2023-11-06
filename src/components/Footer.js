@@ -62,7 +62,7 @@ export const Footer = () => {
               </Link>
             </li>
             <li>
-              <a
+              <Link
                 target="_blank"
                 className=" flex flex-wrap hover:underline md:mr-6"
                 rel="noreferrer"
@@ -141,7 +141,7 @@ export const Footer = () => {
                     fill="#fff"
                   />
                 </svg>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
