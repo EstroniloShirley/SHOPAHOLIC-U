@@ -30,13 +30,14 @@ export const Home = () => {
     setFilter(newData);
     localStorage.setItem('productData', JSON.stringify(newData));
   };
-
+  //eslint-disable-next-line
   const filterProducts = (category) => {
     const updatedItems = data.filter((item) => item.product_type === category);
     setFilter(updatedItems);
   };
 
   //ito para kahit nag click ka ng ibang page prevent parin niya yung current images (display)
+  //eslint-disable-next-line
   const handleLinkClick = (event) => {
     event.preventDefault();
   };

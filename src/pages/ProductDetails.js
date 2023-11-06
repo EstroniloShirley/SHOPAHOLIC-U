@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { Card } from '../components';
 
 export const ProductDetails = () => {
   const { id } = useParams(); // Get the 'id' parameter from the URL

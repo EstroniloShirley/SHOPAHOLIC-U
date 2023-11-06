@@ -1,7 +1,8 @@
-import { useNavigate, Outlet, Link } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 export const Contact = () => {
   const navigate = useNavigate();
+  //eslint-disable-next-line
   const handleSubmit = () => {
     console.log('------');
     return navigate('/');

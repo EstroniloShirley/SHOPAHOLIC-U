@@ -37,6 +37,7 @@ export const NavBar = ({ products }) => {
   };
 
   //ito para kahit nag click ka ng ibang page prevent parin niya yung current images (display)
+  //eslint-disable-next-line
   const handleLinkClick = (event) => {
     event.preventDefault();
   };

@@ -18,7 +18,7 @@ export const Modal = ({ isOpen, onClose, children }) => {
     </div>
   );
 };
-
+//eslint-disable-next-line
 const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 

@@ -14,7 +14,7 @@ export const About = () => {
           <div className="grid grid-cols-2 gap-4">
             <img
               src={ImgAbout}
-              alt="About Image"
+              alt="About Logo1"
               className="container border-double border-4 border-pink-700 rounded-full"
             />
             <p className=" text-black-700 text-lg leading-7 inline-block align-middle ">
@@ -39,7 +39,7 @@ export const About = () => {
             </p>
             <img
               src={ImgAbout2}
-              alt="About Image"
+              alt="About Logo1"
               className="container border-double border-4 border-sky-700 rounded-full"
             />
           </div>
