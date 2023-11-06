@@ -22,11 +22,11 @@ export const ProductDetails = ({ product }) => {
     <main>
       <section className="flex justify-around flex-wrap py-5 bg-white ">
         <div className="max-w-sm">
-          <img
+          {/* <img
             className="rounded"
             // src={params.id.image_link}
             // alt={params.name}
-          />
+          /> */}
           <div className="flex flex-col justify-between p-4 leading-normal">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-black dark:text-white">
               {/* {detail.name} */}

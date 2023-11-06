@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Hero from '../assets/images/banner nyx.gif';
 import { Search } from './Search';
 
-import { Card, NavBar } from '../components';
+import { NavBar } from '../components';
 
 export const Home = () => {
   // eslint-disable-next-line
