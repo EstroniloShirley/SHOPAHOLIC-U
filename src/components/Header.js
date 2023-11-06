@@ -52,7 +52,7 @@ export const Header = () => {
                     Home
                   </NavLink>
                 </li>
-                {/* <li>
+                <li>
                   <NavLink
                     to="/products"
                     className={({ isActive }) =>
@@ -61,7 +61,7 @@ export const Header = () => {
                   >
                     Products
                   </NavLink>
-                </li> */}
+                </li>
                 <li>
                   <NavLink
                     to="/about"

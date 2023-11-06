@@ -1,4 +1,4 @@
-import Showcase from '../assets/images/banner.png';
+import Showcase from '../assets/images/banner nyx.gif';
 
 export const Hero = () => {
   return (
