@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ProductDetails } from 'react';
+import { ProductDetails } from './ProductDetails';
 
 export const Modal = ({ isOpen, onClose, children }) => {
   if (!isOpen) return null;
