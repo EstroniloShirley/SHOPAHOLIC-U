@@ -50,10 +50,10 @@ export const Home = () => {
             BEST SELLING
           </h1>
           <NavBar />
-          <p className="text-center hover:text-white	">
+          {/* <p className="text-center hover:text-white	">
             <Link to="/products">Shop Now</Link>
-          </p>
-          <section className=" bg-sky-700 container flex flex-wrap max-w-7x1 mx-auto py-7 items-center rounded-lg text-center">
+          </p> */}
+          {/* <section className=" bg-sky-700 container flex flex-wrap max-w-7x1 mx-auto py-7 items-center rounded-lg text-center">
             <div className="flex flex-wrap inline-grid grid-cols-4 gap-x-1 gap-y-4 ">
               {filter.map((product) => (
                 <Card
@@ -62,7 +62,7 @@ export const Home = () => {
                 />
               ))}
             </div>
-          </section>
+          </section> */}
         </div>
       </div>
     </main>
